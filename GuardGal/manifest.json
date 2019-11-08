@@ -1,0 +1,31 @@
+{
+"manifest_version": 2,
+    "name": "GuardGal",
+    "description": "Empowering everyone",
+    "version": "1.0",
+	"browser_action": {
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+			"include_globs": [
+				"*outlook*",
+				"*mail.google*",
+				"*groupme*",
+				"*linkedin*",
+				"*slack*",
+				"*mail.yahoo*",
+				"*inbox.google*"
+			],
+            "js": [
+                "./lib/jquery-3.3.1.min.js","content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

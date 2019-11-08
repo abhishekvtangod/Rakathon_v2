@@ -1,0 +1,125 @@
+
+#popupMessage {
+    /* position: relative; */
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    height:350px;
+    padding-left: 5px;
+    /* padding:10rem; */
+    min-width: 350px;
+    max-width: 650px;
+    max-height: 400px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5px;
+    overflow:auto;
+    /* outline: 1px solid black; */
+}
+body{
+    /* background: wheat; */
+    background-image  : url("FINAL.jpg")   ;
+    background-position: center;
+    background-size: cover; 
+      border: 2px solid #000000;
+      margin: 0px;
+    /* -khtml-opacity:.50; 
+    -moz-opacity:.50; 
+    -ms-filter:"alpha(opacity=50)";
+     filter:alpha(opacity=50);
+     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+     opacity:.50;  */
+  }
+  .full .icon{
+    position: fixed;
+    right: 50px;
+    top: 450px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    bottom: 50px;
+    padding-top: 5px;
+  }
+  h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #41DB9B;
+    text-shadow: -2px 2px 0 #000, 
+                          2px 2px 0 #000, 
+                         2px -2px 0 #000; 
+    border: black ;
+    -webkit-margin-after: 0.1em;
+    -webkit-margin-before: 0.1em;
+  }
+
+.progressBar {
+  font-family: 'Open Sans', sans-serif; 
+  height: 2%;
+  width: 100%;
+  text-align: center;
+  font-size: 9px;
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+}
+  .warning {
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #df177b;
+  }
+  .btn{
+    /* border:2px solid rgb(0, 255, 98); */
+    text-shadow: 0 0 1.3px black;
+    margin-left:30px;
+    left: 70px;
+    position:bottom;
+    /* top: px; */
+    background-color: rgb(46, 194, 115); /* Green */
+    /* border: none; */
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .btn:hover{
+    background-color: #00863f;
+    cursor: pointer;
+  }
+  p{
+    color: #690120;
+    position: relative;
+    top: -10px;
+    /* text-decoration: #000; */
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 15px;
+  }
+  
+  /*Scrollbar */
+  
+  /* width */
+  ::-webkit-scrollbar {
+      width: 8px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    /* background:transparent;       */
+    background: #dbced3;
+      border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:transparent;      
+      /* background: #ececec;  */
+}
