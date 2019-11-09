@@ -1,5 +1,6 @@
 document.getElementById("pred4").style.display = "none";
 document.getElementById('submit').addEventListener('click', fetchUserData);
+document.getElementById('text-box').placeholder=window.clipboardData.getData('Text');
       
 function fetchUserData(){
   var a = document.getElementById("auth_id").value;
